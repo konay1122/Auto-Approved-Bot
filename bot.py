@@ -30,7 +30,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, 
 
 pr0fess0r_99=Client(
     "Auto Approved Bot",
-    bot_token = environ["1704395918:AAF0elHeMneECA5s_8m8YThAnj6AfbGLeBM"],
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "1704395918:AAF0elHeMneECA5s_8m8YThAnj6AfbGLeBM"),
     api_id = int(environ["7685644"]),
     api_hash = environ["a713f30f5a21716e6bff334e8ac19b17"]
 )
